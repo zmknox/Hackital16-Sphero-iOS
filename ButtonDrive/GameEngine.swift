@@ -31,6 +31,7 @@ struct Hole  {
 	
 	@objc init(withHole: Int) {
 		chosenHole = PuttPuttGameLogic.predeterminedArray(number: withHole)
+
 	}
     
     @objc init(image: UIImage, startX: Int, startY: Int, endX: Int, endY: Int) {
@@ -125,6 +126,7 @@ struct Hole  {
 			givingHole.start = (125, 0)
 			givingHole.end = (875, 1000)
 		}
+
         
         return givingHole;
 	}
